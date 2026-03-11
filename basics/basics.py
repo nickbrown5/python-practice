@@ -4,7 +4,7 @@ from str_sort import sort_words
 from index_all import index_all
 
 if __name__ == "__main__":
-    spacer = "-" * 20
+    spacer = "-" * 30
 
     print("Prime factors:")
     print(get_prime_factors(630)) # Output: [2, 3, 3, 5, 7]
@@ -19,9 +19,9 @@ if __name__ == "__main__":
 
     print(spacer)
     print("Sorted words:")
-    print(sort_words("banana APPLE cherry")) # Output: "apple banana cherry"
-    print(sort_words("hello World")) # Output: "hello world"
-    print(sort_words("Python programming language")) # Output: "language programming python"
+    print(sort_words("banana APPLE cherry")) # Output: "APPLE banana cherry"
+    print(sort_words("hello World")) # Output: "hello World"
+    print(sort_words("Python programming language")) # Output: "language programming Python"
 
     print(spacer)
     print("Index all occurrences:")
