@@ -1,5 +1,6 @@
 import secrets
 
+# generate password using diceware method
 def password_generator(num_of_words):
     diceware_dict = {}
     passphrase = ''
