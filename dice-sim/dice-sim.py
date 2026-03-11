@@ -1,7 +1,8 @@
 import collections
 import random
 
-# function to determine probability of certain outcomes when rolling dice
+""" function to determine probability of certain outcomes when rolling dice
+    using monte carlo simulation """
 def dice_sim(*args):
     rolls = 1000000
     diceRolls = {}
